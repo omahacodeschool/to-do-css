@@ -15,6 +15,7 @@ For all of the exercises, do not make any changes to the HTML except for the fol
 - You may add add classes to HTML elements (although no assignment should require this)
 - You may add blank lines/spacing for organization/readability
 - You may modify the classes on the `<body>` element to toggle the display of the goal graphic
+- You may add "clear" `<div>`s as needed
 
 No other changes to the HTML in an exercise are allowed.
 
