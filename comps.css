@@ -3,3 +3,37 @@ body{
   padding: 0;
   text-align: center;
 }
+
+.container{
+  padding-left: auto;
+  padding-right: auto;
+  width: 960px;
+}
+
+.container--nav{
+  background-color: red;
+}
+
+.container--main{
+  background-color: gray;
+  margin: 0;
+}
+
+.nav{
+
+}
+
+.main{
+
+}
+
+.main__sidebar{
+  padding-right: 30px;
+  background-color: gray;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
