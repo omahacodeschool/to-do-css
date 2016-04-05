@@ -19,12 +19,24 @@ body{
   background-color: #BB433A;
 }
 
-.container__header h1 {
-  text-align: left;
+.nav {
+  padding-right: 70px;
+}
+
+.navHeader {
+  display: inline-block;
+  float: left;
   margin: 0;
   padding: 10px 0 0 80px;
   color: #fff;
   font-size: 16px;
+}
+
+.navIcon {
+  width: 26px;
+  height: 25px;
+  float: right;
+  padding: 6px 5px 0 2px;
 }
 
 .sidebar {
@@ -48,6 +60,16 @@ body{
   font-size: 18px;
 }
 
+.sidebar h2 {
+  width: 200px;
+  margin: 25px 0 25px 0;
+  border-bottom: 1px solid #888;
+  padding: 0 0 2px 5px;
+  text-align: left;
+  font-size: 14px;
+  color: #888;
+}
+
 .leftBox {
   width: 150px;
   margin-bottom: 10px;
@@ -56,9 +78,19 @@ body{
   font-size: 14px;
 }
 
-.leftBox a {
+.topic {
   text-decoration: none;
   color: #000;
+}
+
+.topic--add {
+  color: red;
+}
+
+.notification {
+  text-decoration: none;
+  font-size: 10px;
+  color: #888;
 }
 
 .leftBox__inbox {
@@ -75,6 +107,18 @@ body{
 
 .leftBox__familyTasks {
   background-image: url("icons/icon_all_tasks.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox__name {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox__add {
+  background-image: url("icons/icon_red_plus.png");
   background-repeat: no-repeat;
   background-position: 2px;
 }
