@@ -111,8 +111,20 @@ body{
   background-position: 2px;
 }
 
-.leftBox__name {
-  background-image: url("");
+.leftBox__blueDot {
+  background-image: url("icons/dots/blue-dot.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox__greyDot {
+  background-image: url("icons/dots/grey-dot.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox__redDot {
+  background-image: url("icons/dots/red-dot.png");
   background-repeat: no-repeat;
   background-position: 2px;
 }
