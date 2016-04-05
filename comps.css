@@ -33,7 +33,7 @@ body{
   padding-left: 35px;
   color: #F9F9F9;
   font-weight: bold;
-
+  font-size:15px;
 }
 
 
@@ -43,6 +43,7 @@ body{
   margin: auto;
   width: 1050px;
   height:100%;
+  color: #2E3030;
 }
 
 .main__sidebar{
@@ -51,6 +52,22 @@ body{
   width: 300px;
   position: absolute;
   height: 100%;
+  font-size: 14px;
+}
+
+.main__sidebar__item{
+  padding: 10px 0px 10px 5px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+
+.main__sidebar__item--selected{
+  background: white;
+}
+
+.main__sidebar__item__count{
+  font-size: 12px;
+  color: #BDBDBD;
 }
 
 ul{
@@ -64,7 +81,7 @@ ul{
 .main__box{
   margin-left: 300px;
   background-color: white;
-  padding: 30px 35px 10px 35px;
+  padding: 17px 35px 10px 35px;
   border-right: 3px solid #EFEFEF;
   border-left: 3px solid #EFEFEF;
 }
@@ -73,3 +90,21 @@ ul{
   text-align: justify;
 }
 
+.main__box__title{
+  font-size: 20px;
+}
+
+.main__box__task-list{
+  margin: 0;
+  padding: 0;
+  font-size:14px;
+}
+
+.main__box__task-list__item{
+  padding: 15px 0px;
+  border-bottom: 2px solid #EFEFEF;
+}
+
+.filler{
+  height:900px;
+}
