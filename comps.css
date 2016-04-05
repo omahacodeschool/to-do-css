@@ -4,4 +4,123 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.container {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F9F9F9;
+}
+
+.container__header {
+  height: 40px;
+  background-color: #BB433A;
+}
+
+.container__header h1 {
+  text-align: left;
+  margin: 0;
+  padding: 10px 0 0 80px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.sidebar {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  padding: 30px 0 0 75px;
+}
+
+.main {
+  margin-left: 300px;
+  padding: 20px 0 20px 30px;
+  width: 650px;
+  background-color: #fff;
+  border-left: 2px solid #F1F1F1;
+  border-right: 2px solid #F1F1F1;
+}
+
+.main h2 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.leftBox {
+  width: 150px;
+  margin-bottom: 10px;
+  padding: 8px 0 8px 30px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.leftBox a {
+  text-decoration: none;
+  color: #000;
+}
+
+.leftBox__inbox {
+  background-image: url("icons/icon_inbox.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox__calendar {
+  background-image: url("icons/icon_calendar.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox__familyTasks {
+  background-image: url("icons/icon_all_tasks.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.leftBox--bgWhite {
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.taskBox {
+  width: 600px;
+  border-bottom: 1px solid #888;
+  padding: 20px 0 35px 0;
+}
+
+.taskBox__task {
+  width: auto;
+  float: left;
+}
+
+.taskBox__task a {
+  text-decoration: none;
+  color: #000;
+}
+
+.taskBox__complete {
+  float: right;
+}
+
+.taskBox__complete a {
+  text-decoration: none;
+  color: red; 
+}
+
+.taskBox--closed {
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
