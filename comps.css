@@ -100,6 +100,7 @@ body{
 
 .sidebar__box__topic--add {
   color: red;
+  text-decoration: none;
 }
 
 /*Main Content*/
