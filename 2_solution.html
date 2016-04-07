@@ -1,62 +1,85 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Comp</title>
-  <link rel="stylesheet" type="text/css" href="comps.css">
-</head>
+  <head>
+    <title>CSS Solution</title>
+    <link rel="stylesheet" type="text/css" href="comps.css">
+  </head>
 
-<!-- ////////HEADER/////////////////////////////// -->
+  <!-- ////////HEADER/////////////////////////////// -->
 
-<body>
+  <body>
 
-  <div class="header">
-    Lorem ipsum
-  </div>
-
-<!-- //////////NAV//////////////////////////////////// -->
-
-  <div class="nav">
-
-    <div class="inbox">
-      <div 
-      Inbox
+    <div class="header">
+      Lorem ipsum
     </div>
 
-    <div class="today">
-      Today
+  <!-- //////////NAV//////////////////////////////////// -->
+
+    <div class="nav">
+
+      <div class="inbox"> 
+        <div class="icon"><img src="icons/icon_inbox.png"></div>
+        <div class="simple_text">  Inbox
+        </div>
+        <div class="inbox_message_number"> 2
+        </div>
+      </div>
+
+
+      <div class="today">
+        <div class="icon"><img src="icons/icon_calendar.png"></div>
+        <div class="simple_text">  Today
+      </div>
+      </div>
+
+      <div class="all_family_tasks">
+        <div class="icon"><img src="icons/icon_all_tasks.png"></div>
+        <div class="simple_text">All Family Tasks
+      </div>
+      </div>
     </div>
 
-    <div class="all_family_tasks">
-      All Family Tasks
-    </div>
+  <!-- //////////MAIN/////////////////////////////// -->
 
-  </div>
-
-<!-- //////////MAIN/////////////////////////////// -->
-
-  <div class="main">
-    
+    <div class="main">
+      
       <div class="main__center">
-  
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ultrices arcu. Proin at ipsum eu risus dapibus tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis interdum nisl nisi, sit amet elementum ex commodo sit amet. Etiam fermentum fringilla turpis ac efficitur. Nulla sit amet tortor nec nisi eleifend imperdiet ac eget risus. Pellentesque efficitur imperdiet condimentum. Cras vitae libero neque. Proin pulvinar fringilla finibus. Nulla non dignissim arcu, nec scelerisque dui.
+        <div class="header_main_center">
+          Inbox (My Tasks)
+        </div>
+        <div class="inbox_items_list">
 
-        <p>
-          Vivamus ultrices euismod massa condimentum volutpat. Fusce ac turpis rhoncus felis dictum ullamcorper. Aenean tincidunt mi laoreet nisl tempor ultrices. Mauris et pulvinar ligula, at pellentesque augue. Maecenas non dui arcu. Suspendisse id nunc ut sapien volutpat interdum non sit amet libero. In volutpat eros sit amet quam condimentum, quis mattis nibh iaculis. Fusce in felis et turpis iaculis pellentesque eleifend vel neque. Proin quis velit congue, placerat diam et, viverra nibh.
-        </p>
+          <div class="inbox_item">
+            <div class="inbox_item_title">
+              Kill the aliens
+            </div>
 
-        <p>
-          Nunc libero mi, mollis vel gravida in, cursus id tortor. Aenean in nunc orci. Fusce accumsan venenatis rutrum. Nam sagittis faucibus nisi, vehicula finibus sapien maximus nec. In hac habitasse platea dictumst. Morbi bibendum libero nulla, nec semper lorem hendrerit ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus eu feugiat risus. In hac habitasse platea dictumst. Proin ultrices ullamcorper turpis, a bibendum magna mollis vel. Quisque eu quam eget sapien gravida semper. Duis in sapien vitae enim ullamcorper pulvinar non a nunc. Curabitur posuere purus et nunc lobortis maximus. Sed gravida lacus elit, nec bibendum diam feugiat sit amet. Etiam ac imperdiet enim, ut molestie nunc. Praesent ultricies nunc ut suscipit interdum.
-        </p>
+            <div class="inbox_item_status">
+              Mark DONE
+            </div>
+          </div>
+
+          <div class="inbox_item">
+            <div class="inbox_item_title">
+              Nap with ALL of the cats
+            </div>
+            
+            <div class="inbox_item_status">
+              Mark NOT DONE
+            </div>
+          </div>
+
+        </div>
       </div>
 
       <div class="main__right">
         
       </div>
-      
-  </div>
+        
+    </div>
 
-<!-- //////////////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////////////// -->
 
-</body>
+  </body>
 </html>
