@@ -68,7 +68,13 @@ body{
 .sidebar__box--selected {
   background-color: #fff;
   border-radius: 5px;
+  padding: 4px;
   font-weight: 500;
+}
+
+.sidebar__box--selected a {
+  text-decoration: none;
+  color: #000;
 }
 
 .sidebar__box__img {
