@@ -11,10 +11,10 @@ body{
   width: 1050px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #F9F9F9;
 }
 
-.container__header {
+/*Top Navigation Style-Guide*/
+.container--nav {
   height: 40px;
   background-color: #BB433A;
 }
@@ -23,7 +23,7 @@ body{
   padding-right: 70px;
 }
 
-.navHeader {
+.nav__header {
   display: inline-block;
   float: left;
   margin: 0;
@@ -32,136 +32,106 @@ body{
   font-size: 16px;
 }
 
-.navIcon {
+.nav__icon {
   width: 26px;
   height: 25px;
   float: right;
   padding: 6px 5px 0 2px;
 }
 
+.container--content {
+  background-color: #F9F9F9;
+}
+
+/*Sidebar Style Guide*/
 .sidebar {
-  position: absolute;
-  width: 300px;
-  height: 100%;
-  padding: 30px 0 0 75px;
+  float: left;
+  width: 250px;
+  padding: 40px 0 25px 40px;
 }
 
-.main {
-  margin-left: 300px;
-  padding: 20px 0 20px 30px;
-  width: 650px;
-  background-color: #fff;
-  border-left: 2px solid #F1F1F1;
-  border-right: 2px solid #F1F1F1;
-}
-
-.main h2 {
-  text-align: left;
-  font-size: 18px;
-}
-
-.sidebar h2 {
-  width: 200px;
-  margin: 25px 0 25px 0;
+.sidebar__header {
+  margin: 25px 25px 25px 25px;
   border-bottom: 1px solid #888;
-  padding: 0 0 2px 5px;
+  padding: 0px 0px 3px 3px;
   text-align: left;
   font-size: 14px;
   color: #888;
 }
 
-.leftBox {
-  width: 150px;
-  margin-bottom: 10px;
-  padding: 8px 0 8px 30px;
+.sidebar__box {
+  margin: 0px 0 25px 30px;
   text-align: left;
   font-size: 14px;
 }
 
-.topic {
-  text-decoration: none;
-  color: #000;
-}
-
-.topic--add {
-  color: red;
-}
-
-.notification {
-  text-decoration: none;
-  font-size: 10px;
-  color: #888;
-}
-
-.leftBox__inbox {
-  background-image: url("icons/icon_inbox.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox__calendar {
-  background-image: url("icons/icon_calendar.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox__familyTasks {
-  background-image: url("icons/icon_all_tasks.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox__blueDot {
-  background-image: url("icons/dots/blue-dot.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox__greyDot {
-  background-image: url("icons/dots/grey-dot.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox__redDot {
-  background-image: url("icons/dots/red-dot.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox__add {
-  background-image: url("icons/icon_red_plus.png");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.leftBox--bgWhite {
+.sidebar__box--selected {
   background-color: #fff;
   border-radius: 5px;
   font-weight: 500;
 }
 
-.taskBox {
+.sidebar__box__img {
+  text-decoration: none;
+  margin-right: 2px;
+}
+
+.sidebar__box__img img {
+  position: relative;
+  top: 4px;
+}
+
+.sidebar__box__topic {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar__box__notification {
+  text-decoration: none;
+  font-size: 10px;
+  color: #888;
+}
+
+.sidebar__box__topic--add {
+  color: red;
+}
+
+/*Main Content*/
+.main {
+  display: inline-block;
+  width: 621px;
+  padding: 25px 25px 25px 50px;
+  background-color: #fff;
+  border-left: 2px solid #F1F1F1;
+  border-right: 2px solid #F1F1F1;
+}
+
+.main__header {
+  text-align: left;
+  font-size: 18px;
+}
+
+.main__box {
   width: 600px;
   border-bottom: 1px solid #888;
   padding: 20px 0 35px 0;
 }
 
-.taskBox__task {
+.main__box__task {
   width: auto;
   float: left;
 }
 
-.taskBox__task a {
+.main__box__task a {
   text-decoration: none;
   color: #000;
 }
 
-.taskBox__complete {
+.main__box__task--status {
   float: right;
 }
 
-.taskBox__complete a {
+.main__box__task--status a {
   text-decoration: none;
   color: red; 
 }
@@ -170,10 +140,9 @@ body{
   text-decoration: line-through;
 }
 
-
-
-
-
+.fill {
+  height: 500px;
+}
 
 
 
