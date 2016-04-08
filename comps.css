@@ -1,7 +1,136 @@
-/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-
 body{
-  margin: 0;
-  padding: 0;
-  text-align: center;
+  background: #FAFAFA;
+  font-family: "Rosario", Helvetica, Arial, sans-serif; 
+  margin-left: 0px;
+  margin-top: 0px;
 }
+
+.header{
+  background: #C7594D;
+  padding-top: 15px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #FFF;
+  border-bottom: 1px solid #C7796F;
+}
+
+/*///////MAIN DIV////////*/
+
+.header_main_center{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.main{
+  margin-left: 25%;
+  color: #5C5C5C;
+  font-size: 14px;
+}
+
+.main__center{
+  border: 1px solid #F1F1F1;
+  background: #FDFDFD;
+  padding-left: 60px;
+  padding-right: 45px;
+  padding-bottom: 100%;
+  padding-top: 35px;
+  margin-right: 60px;
+  margin-left: 30px;
+}
+
+.main_right{
+  background: #FAFAFA;
+  background: gray;
+}
+
+.inbox_item{
+  padding-top: 5px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #CECECE;
+  text-decoration-line: solid;
+}
+
+.inbox_item_title{
+  padding: 0px;
+ display: inline-block;
+  float: left;
+}
+
+.inbox_item_status{
+  color: #C7796F;
+display: inline-block;
+float: right;
+font-size: 12px;
+}
+
+/*///////NAV///////////*/
+
+.nav{
+  float: left;
+  font-size: 22px;
+  color: #5C5C5C;
+  width: 160px;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 100%;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.inbox{
+  background: #FDFDFD;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.today{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.all_family_tasks{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.simple_text{
+  margin-left: 5px;
+  vertical-align: 5px;
+  display: inline-block;
+}
+
+.icon{
+  display: inline-block;
+}
+
+.inbox_message_number{
+  vertical-align: 5px;
+  display: inline-block;
+  font-size: 10px;
+  color: #CECECE;
+  margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
