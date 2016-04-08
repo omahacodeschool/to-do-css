@@ -18,7 +18,8 @@ body{
 /*///////MAIN DIV////////*/
 
 .header_main_center{
-  font-size: 17px;
+  font-size: 18px;
+  padding-bottom: 20px;
 }
 
 .main{
@@ -45,12 +46,22 @@ body{
 
 .inbox_item{
   padding-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #5C5C5C;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #CECECE;
+  text-decoration-line: solid;
 }
+
+.inbox_item_title{
+  padding: 0px;
+ display: inline-block;
+  float: left;
+}
+
 .inbox_item_status{
   color: #C7796F;
-
+display: inline-block;
+float: right;
+font-size: 12px;
 }
 
 /*///////NAV///////////*/
