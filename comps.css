@@ -4,4 +4,155 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.container {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Top Navigation Style-Guide*/
+.container--nav {
+  height: 40px;
+  background-color: #BB433A;
+}
+
+.nav {
+  padding-right: 70px;
+}
+
+.nav__header {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 10px 0 0 80px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav__icon {
+  width: 26px;
+  height: 25px;
+  float: right;
+  padding: 6px 5px 0 2px;
+}
+
+.container--content {
+  background-color: #F9F9F9;
+}
+
+/*Sidebar Style Guide*/
+.sidebar {
+  float: left;
+  width: 250px;
+  padding: 40px 0 25px 40px;
+}
+
+.sidebar__header {
+  margin: 25px 25px 25px 25px;
+  border-bottom: 1px solid #888;
+  padding: 0px 0px 3px 3px;
+  text-align: left;
+  font-size: 14px;
+  color: #888;
+}
+
+.sidebar__box {
+  margin: 0px 0 25px 30px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.sidebar__box--selected {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.sidebar__box--selected a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar__box__img {
+  text-decoration: none;
+  margin-right: 2px;
+}
+
+.sidebar__box__img img {
+  position: relative;
+  top: 4px;
+}
+
+.sidebar__box__topic {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar__box__notification {
+  text-decoration: none;
+  font-size: 10px;
+  color: #888;
+}
+
+.sidebar__box__topic--add {
+  color: red;
+  text-decoration: none;
+}
+
+/*Main Content*/
+.main {
+  display: inline-block;
+  width: 621px;
+  padding: 25px 25px 25px 50px;
+  background-color: #fff;
+  border-left: 2px solid #F1F1F1;
+  border-right: 2px solid #F1F1F1;
+}
+
+.main__header {
+  text-align: left;
+  font-size: 18px;
+}
+
+.main__box {
+  width: 600px;
+  border-bottom: 1px solid #888;
+  padding: 20px 0 35px 0;
+}
+
+.main__box__task {
+  width: auto;
+  float: left;
+}
+
+.main__box__task a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main__box__task--status {
+  float: right;
+}
+
+.main__box__task--status a {
+  text-decoration: none;
+  color: red; 
+}
+
+.taskBox--closed {
+  text-decoration: line-through;
+}
+
+.fill {
+  height: 500px;
+}
+
+
+
+
+
+
